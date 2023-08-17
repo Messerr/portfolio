@@ -1,92 +1,90 @@
 ---
-import BaseLayout from "../layouts/BaseLayout.astro";
-import TimeLineElement from "../components/cv/TimeLine.astro";
+import BaseLayout from '../layouts/BaseLayout.astro';
+import TimeLineElement from '../components/cv/TimeLine.astro';
 ---
 
-<BaseLayout title="Resume" sideBarActiveItemID="cv">
-  <div class="mb-5">
-    <div class="text-3xl w-full font-bold">Profile</div>
+<BaseLayout title='Resume' sideBarActiveItemID='cv'>
+  <div class='mb-5'>
+    <div class='text-3xl w-full font-bold'>Resume</div>
   </div>
 
-  <div class="mb-10 text-justify">
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-    aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-    cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  <div class='mb-10 text-justify'>
+    I have been a professional web developer for over 7 years delivering highly
+    customizable, user friendly, responsive and accessible websites.
   </div>
 
-  <div class="mb-5">
-    <div class="text-3xl w-full font-bold">Education</div>
+  <div class='mb-5'>
+    <div class='text-3xl w-full font-bold'>Experience</div>
   </div>
 
-  <div class="time-line-container grid gap-4 mb-10">
+  <div class='time-line-container mb-10'>
     <TimeLineElement
-      title="Title Name"
-      subtitle="[start year] to [end year] at [Study Center Name], [City], [Country]"
+      title='Senior Web Developer at Ironpaper Inc.'
+      subtitle='From 2015 to Present'
+    >
+      <li>
+        Build responsive, ADA compliant websites and landing pages for over 40
+        clients including Shell SC&T, Propharma, ConctractSafe, Lightning Step,
+        Safe Horizon, The Art Students League, Flatrate and more.
+      </li>
+      <li>
+        Collaborate with designers to ensure their designs transfer cleanly to
+        web.
+      </li>
+      <li>
+        Lead training sessions for marketers on how to navigate Wordpress CMS
+        and Hubspot CMS.
+      </li>
+      <li>
+        Coach junior developers on proper code maintenance and best practices.
+      </li>
+      <li>
+        Work alongside project managers to procure manageable timelines for
+        projects.
+      </li>
+      <li>
+        Assisted in developing a standard workflow between design, development
+        and project managers.
+      </li>
+      <li>Performed API integrations for client software.</li>
+      <li>
+        Establish version control along with development and production
+        environments for new client projectsF
+      </li>
+    </TimeLineElement>
+  </div>
+  <div class='mb-5'>
+    <div class='text-3xl w-full font-bold'>Education</div>
+  </div>
+  <div class='time-line-container grid gap-4 mb-10'>
+    <TimeLineElement
+      title='New York Code & Design Academy'
+      subtitle='Ruby on Rails Full Stack Course'
     />
-    <TimeLineElement
-      title="Title Name"
-      subtitle="[start year] to [end year] at [Study Center Name], [City], [Country]"
-    />
   </div>
 
-  <div class="mb-5">
-    <div class="text-3xl w-full font-bold">Experience</div>
+  <div class='mb-5'>
+    <div class='text-3xl w-full font-bold'>Certifications</div>
   </div>
 
-  <div class="time-line-container mb-10">
-    <TimeLineElement
-      title="Job Title at Project or Company Name"
-      subtitle="From [Start Date] to [End Date] at [Company], [City], [Country]"
-    >
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
-    </TimeLineElement>
-    <TimeLineElement
-      title="Job Title at Project or Company Name"
-      subtitle="From [Start Date] to [End Date] at [Company], [City], [Country]"
-    >
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
-    </TimeLineElement>
-    <TimeLineElement
-      title="Job Title at Project or Company Name"
-      subtitle="From [Start Date] to [End Date] at [Company], [City], [Country]"
-    >
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
-    </TimeLineElement>
-  </div>
-
-  <div class="mb-5">
-    <div class="text-3xl w-full font-bold">Certifications</div>
-  </div>
-
-  <ul class="list-disc mx-6 mb-10 grid gap-2">
+  <ul class='list-disc mx-6 mb-10 grid gap-2'>
     <li>
-      <a href="#" target="_blank"> Certification Name (with link)</a>
-    </li>
-    <li>
-      <a href="#" target="_blank"> Certification Name (with link)</a>
+      <a href='#' target='_blank'> Full Stack Ruby on Rails Developer</a>
     </li>
   </ul>
 
-  <div class="mb-5">
-    <div class="text-3xl w-full font-bold">Skills</div>
+  <div class='mb-5'>
+    <div class='text-3xl w-full font-bold'>Skills</div>
   </div>
 
-  <ul class="list-disc md:columns-5 columns-2 mx-6">
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
+  <ul class='list-disc md:columns-5 columns-2 mx-6'>
+    <li>HTML</li>
+    <li>CSS, Sass, Tailwind</li>
+    <li>Javascript, jQuery, Typescript</li>
+    <li>React, Next JS</li>
+    <li>Astro, Gatsby, Remix</li>
+    <li>Create React App, Vite</li>
+    <li>Wordpress, Hubspot</li>
+    <li>GraphQL</li>
   </ul>
 </BaseLayout>
